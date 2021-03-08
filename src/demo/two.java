@@ -12,12 +12,16 @@ package demo;
 import java.util.Scanner;
 
 public class two {
+	
+	String name;
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
             String s=sc.nextLine();
-
+      two p=new two();
+     p.name="汪涛";
+   System。out.println(p.name);
 int a=0,b=0,c=0,k=0;
             for (int i = 0; i <s.length() ; i++) {
                 if((s.charAt(i)<=90&s.charAt(i)>=65)|(s.charAt(i)<=122&s.charAt(i)>=97)|(s.charAt(i)<=57&s.charAt(i)>=48)|s.charAt(i)==32){
