@@ -14,12 +14,13 @@ import java.util.Scanner;
 public class two {
 	
 	String name;
-
+	String sex;
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
 
             String s=sc.nextLine();
       two p=new two();
+	  p.sex="男";
      p.name="汪涛";
    System。out.println(p.name);
 int a=0,b=0,c=0,k=0;
