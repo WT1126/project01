@@ -12,7 +12,9 @@ package demo;
 public class four {
     public static void main(String[] args) {
         String name;
+		int age;
+		age=10;
         name="name";
-        System.out.println(name);
+        System.out.println(name+age);
     }
 }
