@@ -13,19 +13,14 @@ import java.util.Scanner;
 
 public class two {
 
-    String name;
-    int age;
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
 
-        String s=sc.nextLine();
-        two p=new two();
-        p.name="汪涛";
-        p.age=18;
-        System.out.println(p.name);
-        int a=0,b=0,c=0,k=0;
-        for (int i = 0; i <s.length() ; i++) {
-            if((s.charAt(i)<=90&s.charAt(i)>=65)|(s.charAt(i)<=122&s.charAt(i)>=97)|(s.charAt(i)<=57&s.charAt(i)>=48)|s.charAt(i)==32){
+            String s=sc.nextLine();
+
+int a=0,b=0,c=0,k=0;
+            for (int i = 0; i <s.length() ; i++) {
+                if((s.charAt(i)<=90&s.charAt(i)>=65)|(s.charAt(i)<=122&s.charAt(i)>=97)|(s.charAt(i)<=57&s.charAt(i)>=48)|s.charAt(i)==32){
                 if(s.charAt(i)<=90&s.charAt(i)>=65){
                     a++;
                 }
@@ -38,19 +33,19 @@ public class two {
                 if(s.charAt(i)==32){
                     c++;
                 }
-            }else{
+                }else{
 
-                k++;
+                        k++;
 
-            }
-
-
-        }
-        System.out.println("字母个数"+a+"\n"+"数字个数"+b+"\n"+"空格个数"+c+"\n"+"其他字符个数"+k);
-    }
+                }
 
 
 }
+            System.out.println("字母个数"+a+"\n"+"数字个数"+b+"\n"+"空格个数"+c+"\n"+"其他字符个数"+k);
+}
+
+
+           }
 
 
 
