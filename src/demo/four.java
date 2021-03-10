@@ -12,9 +12,9 @@ package demo;
 public class four {
     public static void main(String[] args) {
         String name;
-		int age;
-		age=10;
+		String sex;
+		sex="男";
         name="name";
-        System.out.println(name+age);
+        System.out.println(name+sex);
     }
 }
